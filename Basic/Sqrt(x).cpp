@@ -8,7 +8,7 @@ public:
         if(x==1){
             return 1;
         }
-        for(long i=1;i<x/2+1;i++){
+        for(long i=1;i<x/2+1;i++){ 
             if(i*i==x){
                 return i;
                 break;
