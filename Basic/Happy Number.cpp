@@ -3,7 +3,8 @@ public:
     bool isHappy(int n) {
         int temp=n;
         while(temp!=1 && temp != 4){
-            int num = temp;
+            int num = temp; 
+            
             int sq = 0;
             while (num > 0) {
                 int a = num % 10;   // get last digit
