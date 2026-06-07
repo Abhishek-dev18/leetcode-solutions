@@ -6,7 +6,7 @@ public:
         }else if(target>nums[nums.size()-1]){
             return nums.size();
         }else{
-            for(int i=0;i<nums.size();i++){
+            for(int i=0;i<nums.size();i++){ 
             if(nums[i]==target){
                 return i;
             }
