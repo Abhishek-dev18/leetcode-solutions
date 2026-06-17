@@ -4,7 +4,7 @@ public:
     long temp = x,n,r=0; 
     while (temp>0){
         n=temp%10;
-        r=n+r*10;
+        r=n+r*10; 
         temp=temp/10;
     }
     if(r==x){
