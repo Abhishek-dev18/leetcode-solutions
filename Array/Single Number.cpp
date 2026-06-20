@@ -8,7 +8,7 @@ public:
                 if(nums[i]==nums[j]){
                     k++;
                 }
-            }
+            } 
             if(k==1){
                 return nums[i];
             }
